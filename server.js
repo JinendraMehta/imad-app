@@ -21,6 +21,14 @@ app.get('/article-one',function(req,res){
     res.send('Article one is requested and will be served soon.');
 });
 
+app.get('/article-two',function(req,res){
+    res.send('Article two is requested and will be served soon.');
+});
+
+app.get('/article-three',function(req,res){
+    res.send('Article three is requested and will be served soon.');
+});
+
 // Do not change port, otherwise your app won't run on IMAD servers
 // Use 8080 only for local development if you already have apache running on 80
 
