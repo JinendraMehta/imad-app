@@ -100,7 +100,7 @@ app.get('/article-three',function(req,res){
 });
 
 app.get('/profile',function(req,res){
-    res.sendFile(path.join(__dirname, 'profile', 'index.html'));
+    res.sendFile(path.join(__dirname, 'profile', 'profile.html'));
 });
 
 // Do not change port, otherwise your app won't run on IMAD servers
